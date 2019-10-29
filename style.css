@@ -357,11 +357,21 @@ h3 {
 /* media queries */
 
 @media (max-width: 1430px) {
+    .wrapper {
+        width: 90%;
+        height: 100%;
+        margin: 0 5%;
+    }
+
+    .icons {
+        min-height: 600px;
+    }
+
     .icons-container {
-        font-size: 2rem;
+        font-size: 3rem;
     }
     h3 {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     .subscribe-form {
@@ -388,10 +398,17 @@ h3 {
 }
 
 @media (max-width: 1160px) {
+
+    h2 {
+        font-size: 2rem;
+        font-family: 'Iceberg', cursive;
+        text-transform: uppercase;
+    }
+
     .icon {
         clear: both;
         text-align: center;
-        padding: 10px 0;
+        padding: 25px 0;
         width: 100%;
     }
 
@@ -423,4 +440,31 @@ h3 {
     }
     
 
+}
+
+@media (max-width: 550px) {
+    header {
+        height: 80vh;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .header-text {
+        padding-top: 20%;
+        height: auto;
+    }
+
+    .header-button {
+        padding-top: 25px;
+    }
+
+    .header-button button {
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
 }
