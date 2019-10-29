@@ -1,1 +1,17 @@
-<script src='https://code.jquery.com/jquery-3.4.0.min.js' integrity='sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=' crossorigin='anonymous'></script>
+$( document ).ready(function() {
+
+    $(".burger-menu").on("click", function() {
+        $(".burger-menu").addClass("hidden-burger-menu");
+        $(".exit-menu").addClass("exit-menu-active");
+        $(".fullscreen-menu").addClass("fullscreen-menu-active");
+    });
+
+    $(".exit-menu").on("click", function() {
+        $(".exit-menu").removeClass("exit-menu-active");
+        $(".burger-menu").removeClass("hidden-burger-menu");
+        $(".fullscreen-menu").removeClass("fullscreen-menu-active");
+    });
+
+
+
+});
