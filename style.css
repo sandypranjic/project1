@@ -104,7 +104,8 @@ h1 span {
     text-align: center;
 }
 
-.header-button button {
+.header-button h4 {
+    display: inline-block;
     padding: 10px;
     border: 1px solid #fff;
     background-color: #9200FF;
@@ -112,6 +113,7 @@ h1 span {
     font-size: 2.5rem;
     text-transform: lowercase;
     letter-spacing: 1px;
+    font-weight: 400;
 }
 
 /* main */
@@ -424,7 +426,7 @@ h3 {
         font-size: 4rem;
     }
 
-    .header-button button {
+    .header-button h4 {
         font-size: 1.7rem;
     }
 

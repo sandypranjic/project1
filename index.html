@@ -21,6 +21,11 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
+
+        <!-- 
+            This is a burger menu that appears in the right corner of the screen only when the viewport is smaller than 550px. I felt like the text nav was getting to be too small and made for bad user experience. The menu appears and disappears with an onclick method in jquery.  
+        -->
+
         <nav class="mobile-only">
             <div class="burger-menu">
                 <i class="fas fa-bars"></i>
@@ -43,12 +48,20 @@
         <div class="header-text">
             <h1><span>Thunder</span><span>Force</span><span>Stadium</span></h1>
         </div>
+
+        <!-- 
+            This looks like a button in the design mock-up, but because it doesn't actually DO anything I thought it would be semantically incorrect, so I made it an h4 instead. 
+        -->
+
         <div class="header-button">
-            <button>Presented By Hot Cops</button>
+            <h4>Presented By Hot Cops</h4>
         </div>
     </header>
 
     <main>
+    <!-- 
+        I used "left" and "right" as classes for the divs because it's the only part of the page that's laid out like a grid and they would have similar styles depending on their position.  
+    -->
 
         <section class="grid clearfix">
             <div class="top-image-in-main">
@@ -58,9 +71,7 @@
             <div class="left parent-of-centered-div">
                 <div class="text-container">
                     <h2>Performing Line Up</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, harum ad! Saepe ex nostrum
-                        obcaecati est nisi suscipit facere sed pariatur eius dicta? Recusandae aliquam eveniet officiis
-                        autem tenetur voluptatum?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, harum ad! Saepe ex nostrum obcaecati est nisi suscipit facere sed pariatur eius dicta? Recusandae aliquam eveniet officiis autem tenetur voluptatum?</p>
                     <a href="#" class="read-more">Read More</a>
                 </div>
             </div>
@@ -74,9 +85,7 @@
             <div class="right parent-of-centered-div">
                 <div class="text-container">
                     <h2>New Experiences</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, harum ad! Saepe ex nostrum
-                        obcaecati est nisi suscipit facere sed pariatur eius dicta? Recusandae aliquam eveniet officiis
-                        autem tenetur voluptatum?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, harum ad! Saepe ex nostrum obcaecati est nisi suscipit facere sed pariatur eius dicta? Recusandae aliquam eveniet officiis autem tenetur voluptatum?</p>
                     <a href="#" class="read-more">Read More</a>
                 </div>
             </div>
@@ -84,7 +93,6 @@
         </section>
 
         <section class="tickets clearfix">
-
             <div class="clearfix wrapper">
                 <div class="left tickets-image">
                     <img src="./assets/small-square.jpg" alt="">
@@ -100,6 +108,7 @@
                         <a href="#" class="read-more">Read More</a>
                     </div>
                 </div>
+                <!-- end of wrapper -->
             </div>
 
         </section>
@@ -141,22 +150,14 @@
                 <div class="instagram-image">
                     <img src="./assets/gallery-image-3.jpg">
                 </div>
+                <!-- End of wrapper -->
             </div>
-
-
-
-            </div>
-
-
         </section>
-
-
     </main>
 
     <footer class="main-footer clearfix">
 
         <div class="top-footer-container clearfix">
-
             <div class="footer-links">
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -164,7 +165,6 @@
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-
             </div>
         </div>
 
@@ -177,7 +177,7 @@
             </div>
     
             <div class="stay-connected">
-                <h2>Stay Updated</h2>
+                <h2>Stay Connected</h2>
                 <p>Subscribe to our newsletter to stay updated.</p>
                 <form>
                     <input type="email" class="subscribe-form" placeholder="email address">
@@ -188,13 +188,10 @@
     </footer>
 
     <footer class="copyright">
-
         <p>Copyright 2019 Juno College</p>
-
     </footer>
 
     <script src='https://code.jquery.com/jquery-3.4.0.min.js' integrity='sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=' crossorigin='anonymous'></script>
     <script src="javascript.js"></script>
 </body>
-
 </html>
