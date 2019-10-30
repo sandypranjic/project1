@@ -256,8 +256,7 @@ h3 {
 
 .icon {
     float: left;
-    padding: 30px 0;
-    width: 100%;
+    padding: 0 30px;
 }
 
 .instagram {
@@ -421,6 +420,10 @@ h3 {
         font-size: 1.2rem;
     }
 
+    h1 {
+        font-size: 4rem;
+    }
+
     .header-button button {
         font-size: 1.7rem;
     }
@@ -486,8 +489,38 @@ h3 {
     .instagram-image:nth-of-type(3) {
         display: none;
     }
-    
 
+    .contact, .stay-connected {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .stay-connected {
+        padding-top: 25px;
+    }
+
+    .contact p, .stay-connected p {
+        font-size: 1.2rem;
+    }
+
+    .subscribe-form {
+        font-size: 1.5rem;
+        padding: 10px 20px;
+        width: 70%;
+        border: 0;
+        margin-top: 40px 0;
+        vertical-align: middle;
+    }
+    
+    .subscribe-button {
+        font-size: 1.5rem;
+        padding: 10px 20px;
+        width: 70%;
+        border: 0;
+        margin: 10px 0;
+        vertical-align: middle;
+    }
 }
 
 @media (max-width: 550px) {
@@ -497,6 +530,10 @@ h3 {
 
     header nav {
         display: none;
+    }
+
+        h1 {
+        font-size: 3rem;
     }
 
     .mobile-only {
@@ -582,10 +619,6 @@ h3 {
         padding-top: 25px;
     }
 
-    h1 {
-        font-size: 3rem;
-    }
-
     p {
         font-size: 1.2rem;
     }
@@ -598,20 +631,6 @@ h3 {
         font-size: 1rem;
         text-transform: uppercase;
         padding: 0 10px;
-    }
-
-    .contact, .stay-connected {
-        float: none;
-        width: 100%;
-        text-align: center;
-    }
-
-    .stay-connected {
-        padding-top: 25px;
-    }
-
-    .contact p, .stay-connected p {
-        font-size: 1.2rem;
     }
 
     .subscribe-form {
@@ -629,11 +648,5 @@ h3 {
         width: 100%;
         border: 0;
         margin: 10px 0;
-        background-color: #9200FF;
-        color: white;
-        text-transform: uppercase;
-        font-family: 'Iceberg', cursive;
-        vertical-align: middle;
     }
-
 }
